@@ -80,7 +80,7 @@ h1{
     height: 200px;
     border: 3px blue solid;
     text-align: right;
-    font-size: 40px;
+    font-size: 38px;
 }
 .unicard{
     background-image: url(unicard.jpeg);
@@ -227,5 +227,66 @@ footer{
     height: 40px;
     background-color: #161619;
     color: white;
+    
+}
+@media screen and (min-width:360px) and (max-width: 420px){
+    header{
+        width:100%;
+        height: 40px;
+        font-size: 10px;
+    }
+    
+    li{
+        font-size: 10px;
+    }
+    h1{
+        height: 30px;
+
+    }
+    .h1{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .buttongrp{
+        display: flex;
+        flex-direction: column;
+        margin: 10px ;
+    }
+    .slice{
+        background-size:contain;
+        font-size: 25px;
+    }
+    .unicard{
+        background-size: contain;
+        font-size: 25px;
+    }
+    .onecard{
+        background-size: contain;
+        font-size: 22px;
+    }
+    .bob{
+        background-size: contain;
+        font-size: 20px;
+    }
+    .sbi{
+        background-size: contain;
+        font-size: 20px;
+    }
+    .kotak{
+        background-size: contain;
+        font-size: 20px;
+    }
+    .headdiv h2{
+        font-size: 20px;
+    }
+    .headdiv p{
+        font-size: 15px;
+        margin: 1px;
+    }
+    .headdiv li{
+        font-size: 12px;
+    }
     
 }
