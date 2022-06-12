@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #006a9e;
+    box-shadow: 0px 3px 7px black;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.h1{
+    width: 100%;
+    height:50px;
+    background-color: skyblue;
+}
+
+.rightx{
+ 
+    padding: 5px;
+    
+    
+    
+}
+.leftx{
+    padding-left: 15px;
+    background-image: linear-gradient(yellow,rgb(179, 116, 0));
+    font-size: larger;
+    color: maroon;
+    font-weight: bolder;
+    padding: 3px;
+   
+    
+    
+}
+
+.rightx ul{list-style-type: none;}
+.rightx li{display: inline-block;padding: 12px;color: white;}
+
+.container{
+    width: 90%;
+    margin: 6%;
+    margin-top: 0%;
+    height: auto;
+    background-color: lightblue;
+    
+    
+}
+.container h2{
+    text-align: center;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    color: blue;
+}
+.buttongrp{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin: 50px ;
+}
+.slice{
+   background-image: url(Slice.jpg);
+    background-repeat: no-repeat;
+    background-size: 13vw;
+    color: purple;
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    border: 3px blue solid;
+    text-align: right;
+    font-size: 40px;
+}
+.unicard{
+    background-image: url(unicard.jpeg);
+     background-repeat: no-repeat;
+     background-size: 13vw;
+     color: lightseagreen;
+     border-radius: 20px;
+     width: 100%;
+     height: 200px;
+     border: 3px blue solid;
+     text-align: right;
+     font-size: 35px;
+ }
+ .onecard{
+    background-image: url(onecard.png);
+     background-repeat: no-repeat;
+     background-size: 13vw;
+    
+     border-radius: 20px;
+     width: 100%;
+     height: 200px;
+     border: 3px blue solid;
+     text-align: right;
+     font-size: 33px;
+ }
+ .bob{
+    background-image: url(bob.jpg);
+     background-repeat: no-repeat;
+     background-size: 13vw;
+     color: orangered;
+     border-radius: 20px;
+     width: 100%;
+     height: 200px;
+     border: 3px blue solid;
+     text-align: right;
+     font-size: 1.5vw;
+ }
+ .sbi{
+    background-image: url(sbi.jpg);
+     background-repeat: no-repeat;
+     background-size: 13vw;
+     color: blue;
+     border-radius: 20px;
+     width: 100%;
+     height: 200px;
+     border: 3px blue solid;
+     text-align: right;
+     font-size: 1.5vw;
+ }
+ .kotak{
+    background-image: url(kotak.jpg);
+     background-repeat: no-repeat;
+     background-size: 13vw;
+     color: red;
+     border-radius: 20px;
+     width: 100%;
+     height: 200px;
+     border: 3px blue solid;
+     text-align: right;
+     font-size: 1.5vw;
+ }
+
+button:hover{
+    opacity: 0.7;
+    
+}
+
+p{
+    margin: 20px;
+    font-size: 25px;
+}
+ul{
+    font-size: 20px;
+    color: rgb(71, 69, 69);
+}
+.first-card h2{
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    color: purple;
+}
+.first-card{
+    border: 2px purple dotted;
+    
+    font-display: justify;
+}
+.second-card h2{
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    color: lightseagreen;
+}
+.second-card{
+    border: 2px seagreen dotted;
+    font-display: justify;
+}
+.third-card h2{
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    color: black;
+}
+.third-card{
+    border: 2px black dotted;
+    font-display: justify;
+}
+.forth-card h2{
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    color: orangered;
+}
+.forth-card{
+    border: 2px orangered dotted;
+    font-display: justify;
+}
+.fifth-card h2{
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    color: blue;
+}
+.fifth-card{
+    border: 2px blue dotted;
+    font-display: justify;
+}
+.sixth-card h2{
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    color: red;
+}
+.sixth-card{
+    border: 2px red dotted;
+    font-display: justify;
+}
+.headdiv div{
+    margin-bottom: 15px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #161619;
+    color: white;
+    
+}
