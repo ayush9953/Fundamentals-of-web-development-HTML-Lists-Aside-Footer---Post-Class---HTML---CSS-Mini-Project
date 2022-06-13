@@ -163,7 +163,7 @@ ul{
     color: purple;
 }
 .first-card{
-    border: 2px purple dotted;
+    border-top: 5px purple solid;
     
     font-display: justify;
 }
@@ -174,7 +174,7 @@ ul{
     color: lightseagreen;
 }
 .second-card{
-    border: 2px seagreen dotted;
+   border-top: 5px lightseagreen solid;
     font-display: justify;
 }
 .third-card h2{
@@ -184,7 +184,7 @@ ul{
     color: black;
 }
 .third-card{
-    border: 2px black dotted;
+    border-top: 5px black solid;
     font-display: justify;
 }
 .forth-card h2{
@@ -194,7 +194,7 @@ ul{
     color: orangered;
 }
 .forth-card{
-    border: 2px orangered dotted;
+    border-top: 5px orangered solid;
     font-display: justify;
 }
 .fifth-card h2{
@@ -204,7 +204,7 @@ ul{
     color: blue;
 }
 .fifth-card{
-    border: 2px blue dotted;
+    border-top: 5px blue solid;
     font-display: justify;
 }
 .sixth-card h2{
@@ -214,7 +214,7 @@ ul{
     color: red;
 }
 .sixth-card{
-    border: 2px red dotted;
+    border-top: 5px red solid;
     font-display: justify;
 }
 .headdiv div{
