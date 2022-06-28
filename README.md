@@ -21,8 +21,8 @@ You can click on any of the given cards to know about their details and benefits
 
 To visit the site click the link below-
 
-https://ayush9953.github.io/chooseyourcard/
 
+https://62a5a08323b63b366f736ac4--deluxe-dusk-96ac2f.netlify.app/
 
 ## Tech 
 
